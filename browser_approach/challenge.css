@@ -1,0 +1,19 @@
+body {
+	height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	background-color: black;
+	color: white;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: large;
+	
+}
+
+#output {
+	padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+	display: none;
+}
