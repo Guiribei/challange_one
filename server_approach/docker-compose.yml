@@ -1,3 +1,5 @@
 services:
   challenge:
     build: .
+    tty: true
+    stdin_open: true
