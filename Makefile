@@ -1,7 +1,7 @@
 all: up
 
 up:
-	docker-compose -f server_approach/docker-compose.yml up --build
+	docker-compose -f server_approach/docker-compose.yml run challenge
 down:
 	docker-compose -f server_approach/docker-compose.yml down
 
