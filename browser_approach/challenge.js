@@ -18,6 +18,8 @@ window.onload = function() {
 
 	while (validatedInput == null || isNaN(validatedInput)) {
 		userInput = prompt("Insira um inteiro positivo:");
+		if (userInput.length > 9)
+			userInput = -1;
 		validatedInput = parseInt(userInput);
 		if (validatedInput < 0)
 			validatedInput = null;

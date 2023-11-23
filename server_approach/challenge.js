@@ -26,7 +26,9 @@ function main() {
     let validatedInput = null;
 	const readlineSync = require('readline-sync');
 	while (validatedInput == null || isNaN(validatedInput)) {
-		validatedInput = readlineSync.questionInt("Insira um inteiro positivo:");
+		validatedInput = readlineSync.questionInt("Insira um inteiro positivo: ");
+		if (validatedInput > 999999999)
+			validatedInput = -1;
 		if (validatedInput < 0) {
 			validatedInput = null;
 			console.log("Input valid number, please");
