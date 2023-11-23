@@ -31,7 +31,7 @@ function main() {
 			validatedInput = -1;
 		if (validatedInput < 0) {
 			validatedInput = null;
-			console.log("Input valid number, please");
+			console.log("Digite um número válido, por favor");
 		}
 	}
     console.log(`A soma dos inteiros positivos divisíveis por 3 ou por 5 até o número ${validatedInput} é: ${addDivisibles(validatedInput)}`)
